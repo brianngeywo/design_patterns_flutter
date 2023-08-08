@@ -1,6 +1,6 @@
 import 'dart:async';
 
-class Weather {
+class WeatherSubject {
   String _currentWeather = "";
 
   StreamController<String> _weatherStreamController =
